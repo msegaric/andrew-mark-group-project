@@ -1,0 +1,15 @@
+nav{
+    border: 1px solid pink;
+    ul{
+        display: flex;
+        justify-content: space-around;
+
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+            }
+
+        }
+    }
+}

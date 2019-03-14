@@ -1,7 +1,13 @@
 .home-body{
-    background-image: url('../images/home-background.jpg');
+    background-image: url('../images/home-background-mobile.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.home-body header a{
+    &:hover{
+        padding-bottom: 8px;
+        border-bottom: 4px solid #5b8054;
+    }
 }

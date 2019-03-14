@@ -1,0 +1,15 @@
+.drinks-body{
+    background-image: url('../images/drinks-background-mobile.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.drinks-body header a{
+    &:hover{
+        padding-bottom: 8px;
+        border-bottom: 4px solid #ff7666;
+    }
+}
+
+

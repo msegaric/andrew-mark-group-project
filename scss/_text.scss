@@ -1,6 +1,17 @@
 a{
     text-decoration: none;
-    &:hover{
-        color: rgb(187, 186, 186);
+    
+}
+header{
+    h1{
+        font-family: 'Muli', sans-serif;
+        font-weight: 600;
+        font-size: 3em;
+    }
+    nav a{
+        font-family: 'Muli', sans-serif;
+        font-weight: 300;
+        font-size: 1.5em;
     }
 }
+

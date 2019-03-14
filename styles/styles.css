@@ -1,25 +1,88 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto; }
+
 a {
   text-decoration: none; }
-  a:hover {
-    color: #bbbaba; }
 
-.home-body {
-  background-image: url("../images/home-background.jpg");
+header h1 {
+  font-family: 'Muli', sans-serif;
+  font-weight: 600;
+  font-size: 3em; }
+header nav a {
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em; }
+
+.about-body {
+  background-image: url("../images/about-background-mobile.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
 
+.about-body header a:hover {
+  padding-bottom: 8px;
+  border-bottom: 4px solid #9a4039; }
+
+.contact-body {
+  background-image: url("../images/contact-background-mobile.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.contact-body header a:hover {
+  padding-bottom: 8px;
+  border-bottom: 4px solid #e0e490; }
+
+.drinks-body {
+  background-image: url("../images/drinks-background-mobile.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.drinks-body header a:hover {
+  padding-bottom: 8px;
+  border-bottom: 4px solid #ff7666; }
+
+.food-body {
+  background-image: url("../images/food-background-mobile.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.food-body header a:hover {
+  padding-bottom: 8px;
+  border-bottom: 4px solid #92b13a; }
+
+.home-body {
+  background-image: url("../images/home-background-mobile.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.home-body header a:hover {
+  padding-bottom: 8px;
+  border-bottom: 4px solid #5b8054; }
+
 nav ul {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding: 0; }
   nav ul li {
     list-style: none; }
     nav ul li a {
       color: black; }
 
+body {
+  height: 100vh; }
+
 header {
-  background-color: rgba(202, 200, 200, 0.3);
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 20px; }
   header h1 {
     text-align: center;

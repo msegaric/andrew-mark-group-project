@@ -1,0 +1,13 @@
+.about-body{
+    background-image: url('../images/about-background-mobile.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-body header a{
+    &:hover{
+        padding-bottom: 8px;
+        border-bottom: 4px solid #9a4039;
+    }
+}

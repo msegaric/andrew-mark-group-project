@@ -1,11 +1,28 @@
-nav {
-  border: 1px solid pink; }
-  nav ul {
-    display: flex;
-    justify-content: space-around; }
-    nav ul li {
-      list-style: none; }
-      nav ul li a {
-        text-decoration: none; }
+a {
+  text-decoration: none; }
+  a:hover {
+    color: #bbbaba; }
+
+.home-body {
+  background-image: url("../images/home-background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+nav ul {
+  display: flex;
+  justify-content: space-around; }
+  nav ul li {
+    list-style: none; }
+    nav ul li a {
+      color: black; }
+
+header {
+  background-color: rgba(202, 200, 200, 0.3);
+  padding: 20px; }
+  header h1 {
+    text-align: center;
+    color: black; }
 
 /*# sourceMappingURL=styles.css.map */

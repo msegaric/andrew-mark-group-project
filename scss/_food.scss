@@ -17,6 +17,18 @@
 
 
 
+.menu{
+    margin: 50px auto;
+    background-color: rgba($color: rgb(255, 255, 255), $alpha: 0.7);
+    border-radius: 10px;
+    max-width: 80vw;
+    text-align: center;
+    list-style-type: none;
+    padding: 15px 0;
+    li{
+        margin: 25px 10px;
+    }
+}
 
 
 

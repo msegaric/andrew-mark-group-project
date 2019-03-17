@@ -25,9 +25,9 @@
         margin: 25px 10px;
     }
 }
-@media(min-width:800px){
+@media(min-width:700px){
     .drinks-body{
-        background-image: url('../images/drinks-background-tablet.jpg');
+        background-image: url('../images/drinks-background-tablet-2.jpg');
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
@@ -36,12 +36,29 @@
     .drinks-main{
         display: flex;
         .menu{
+            margin-top: 25vh;
             width: 45%;
-            max-width: 500px;
+            max-width: 400px;
         }
         
     }
-    
+}
+@media(min-width:1000px){
 
-
+    .drinks-body{
+        background-image: url('../images/drinks-background-full.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .drinks-main{
+            .menu{
+                margin-top: 15vh;
+            }
+        }
+        header{
+            margin-top: 15vh;
+        }
+    }
+   
 }

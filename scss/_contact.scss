@@ -14,4 +14,14 @@
 
 
 
+@media(min-width:1000px){
+    .contact-body{
+        background-image: url('../images/contact-background-full.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
 

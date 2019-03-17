@@ -30,10 +30,11 @@
     }
     
 }
-@media(min-width: 800px){
+@media(min-width: 700px){
     .food-main{
         display: flex;
         .menu{
+            margin-top: 20vh;
             width: 30%;
             max-width: 400px;
         }
@@ -42,3 +43,22 @@
     
 }
 
+@media(min-width:1000px){
+
+    .food-body{
+        background-image: url('../images/food-background-full.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .food-main{
+            .menu{
+                margin-top: 15vh;
+            }
+        }
+        header{
+            margin-top: 15vh;
+        }
+    }
+   
+}

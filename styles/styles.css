@@ -75,6 +75,19 @@ article {
   .menu li {
     margin: 25px 10px; }
 
+@media (min-width: 800px) {
+  .drinks-body {
+    background-image: url("../images/drinks-background-tablet.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+  .drinks-main {
+    display: flex; }
+    .drinks-main .menu {
+      width: 45%;
+      max-width: 500px; } }
 .food-body {
   background-image: url("../images/food-background-mobile.jpg");
   background-attachment: fixed;
@@ -97,6 +110,12 @@ article {
   .menu li {
     margin: 25px 10px; }
 
+@media (min-width: 800px) {
+  .food-main {
+    display: flex; }
+    .food-main .menu {
+      width: 30%;
+      max-width: 400px; } }
 .home-body {
   background-image: url("../images/home-background-mobile.jpg");
   background-attachment: fixed;

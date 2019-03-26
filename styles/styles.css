@@ -86,9 +86,6 @@ main h1, main h2, main p, main a, main ul {
     max-width: 50vw;
     margin: 2vw; }
 
-.contact-form {
-  max-width: 50vw; }
-
 @media (min-width: 1000px) {
   .contact-body {
     background-image: url("../images/contact-background-full.jpg");
@@ -97,7 +94,21 @@ main h1, main h2, main p, main a, main ul {
     background-size: cover;
     background-repeat: no-repeat; }
     .contact-body .content-main {
-      display: flex; } }
+      display: flex; }
+
+  .contact-article {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center; }
+
+  .contact-main {
+    display: flex; }
+    .contact-main .contact-form {
+      width: 500px;
+      margin-right: 15vw;
+      flex-direction: column;
+      justify-content: center; } }
 .drinks-body {
   background-image: url("../images/drinks-background-mobile.jpg");
   background-attachment: fixed;
